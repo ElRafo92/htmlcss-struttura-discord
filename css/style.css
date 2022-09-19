@@ -21,19 +21,14 @@
 .debug .header-top{
     background-color: #daa520;
     border: 2px dashed black;
-
 }
 
-.debug hero{
+.debug hero section{
     background-color: #00008b;
-    height: 400px;
-
 }
-.debug .hero{
+.debug .col-one{
     background-color: #ee82ee;
     border: 2px dashed black;
-    width: 50%;
-    height: 100%;
 }
 
 .debug .row{
@@ -93,27 +88,28 @@ header{
 
 /* HERO */
 
-hero{
+.row-one{
     display: flex;
     justify-content: center;
-    padding: 30px 0px;
+    height: 400px;
+    padding: 35px 0px;
+}
+.col-one{
+    width: 60%;
 }
 
 /* MAIN */
 
-section{
-    padding: 25px 0px;
-}
 section:nth-child(even){
     background-color: #d3d3d3;
 }
 .row{
     display: flex;
-    padding: 25px 0px;
+    padding: 50px 0px;
 }
 .row-big{
     display: flex;
-    padding: 25px 0px;
+    padding: 50px 0px;
 }
 .col-big{
     width: 60%;
@@ -136,13 +132,12 @@ width: 70%;
 }
 .row-bigfoot .col-small{
     width: 30%;
-    }
-
-    .row-smallfoot{
+}
+.row-smallfoot{
         display: flex;
         justify-content: space-between;
         align-items: center;
         height: 50px;
         margin-top: 40px;
         border: 2px dashed black;
-    }
+}
