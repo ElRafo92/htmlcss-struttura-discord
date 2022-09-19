@@ -12,6 +12,7 @@
     max-width: 1200px;
     margin: auto;
 }
+
 /* DEBUG */
 
 .debug header{
@@ -22,7 +23,17 @@
     border: 2px dashed black;
 
 }
+.debug hero{
+    background-color: #00008b;
+}
+.debug .hero{
+    background-color: #ee82ee;
+    border: 2px dashed black;
+    width: 50%;
+}
+
 /* HEADER */
+
 header{
     padding: 15px 0px;
 }
@@ -31,6 +42,15 @@ header{
     justify-content: space-between;
     height: 50px;
     align-items: center;
+}
+
+/* HERO */
+
+hero{
+    display: flex;
+    justify-content: center;
+    padding: 25px 0px;
+    height: 300px;
 }
 
 /* MAIN */
