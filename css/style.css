@@ -30,6 +30,7 @@
     background-color: #ee82ee;
     border: 2px dashed black;
     width: 50%;
+    height: 100%;
 }
 
 /* HEADER */
@@ -49,8 +50,8 @@ header{
 hero{
     display: flex;
     justify-content: center;
-    padding: 25px 0px;
-    height: 300px;
+    padding: 30px 0px;
+    height: 400px;
 }
 
 /* MAIN */
