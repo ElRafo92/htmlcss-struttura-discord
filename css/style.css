@@ -55,6 +55,18 @@
     border: 2px dashed black;
 }
 
+.debug footer{
+    background-color: #23272a;
+}
+.debug .row-bigfoot{
+    height: 500px;
+}
+.debug .row-bigfoot .col-big{
+    background-color: #f08080;
+}
+.debug .row-bigfoot .col-small{
+    background-color: #20b2aa;
+}
 
 /* HEADER */
 
@@ -77,6 +89,7 @@ hero{
 }
 
 /* MAIN */
+
 section{
     padding: 25px 0px;
 }
@@ -102,3 +115,10 @@ section:nth-child(even){
 }
 
 /* FOOTER */
+
+.row-bigfoot{
+    display: flex;
+}
+.row-bigfoot .col-big{
+width: 100%;
+}
