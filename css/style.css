@@ -67,6 +67,17 @@
 .debug .row-bigfoot .col-small{
     background-color: #20b2aa;
 }
+.debug .row-smallfoot{
+    background-color: #7fffd4;
+}
+.debug .row-smallfoot .logo{
+    background-color: #ffb6c1;
+    border: 2px dashed black;
+}
+.debug .row-smallfoot .button{
+    background-color: #ffb6c1;
+    border: 2px dashed black;
+}
 
 /* HEADER */
 
@@ -118,7 +129,20 @@ section:nth-child(even){
 
 .row-bigfoot{
     display: flex;
+    padding: 10px 0px;
 }
 .row-bigfoot .col-big{
-width: 100%;
+width: 70%;
 }
+.row-bigfoot .col-small{
+    width: 30%;
+    }
+
+    .row-smallfoot{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        margin-top: 40px;
+        border: 2px dashed black;
+    }
