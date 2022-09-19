@@ -1,5 +1,37 @@
 /* RESET */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 /* COMMON */
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+/* DEBUG */
+
+.debug header{
+    background-color: #add8e6;
+}
+.debug .header-top{
+    background-color: #daa520;
+    border: 2px dashed black;
+
+}
 /* HEADER */
+header{
+    padding: 15px 0px;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
 /* MAIN */
 /* FOOTER */
